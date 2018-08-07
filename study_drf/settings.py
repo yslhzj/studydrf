@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'drf.apps.DrfConfig',
+     'snippets.apps.SnippetsConfig',
+     'django_extensions',
 ]
 
 MIDDLEWARE = [
